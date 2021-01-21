@@ -14,7 +14,17 @@ public class ApplicationManager {
 
     EventFiringWebDriver wd;
      HelperForModelBase modelBase;
+     HelperUser user;
+     HelperStudentForm student;
     String browser;
+
+    public HelperStudentForm student() {
+        return student;
+    }
+
+    public HelperUser user() {
+        return user;
+    }
 
     public HelperForModelBase getModelBase() {
         return modelBase;
@@ -34,6 +44,8 @@ public class ApplicationManager {
             wd = new EventFiringWebDriver(new EdgeDriver());
         }
        modelBase =new HelperForModelBase(wd);
+        user=new HelperUser(wd);
+        student=new HelperStudentForm(wd);
 
         //Display logback status!
         // LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();

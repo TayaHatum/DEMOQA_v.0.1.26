@@ -21,7 +21,8 @@ public class TestExample extends TestBase{
     }
     @Test
     public void testForListener(){
-        app.getModelBase().click(By.cssSelector("[type='search']"));
+
+
     }
     @Test(dataProvider = "valid", dataProviderClass = DataProviders.class)
     public void testForDataProvider(String fild1, String fild2){
