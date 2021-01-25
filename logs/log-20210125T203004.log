@@ -1,0 +1,49 @@
+20:30:11 INFO  - Start test - >studentRegFormTest
+20:30:11 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+20:30:11 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+20:30:11 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+20:30:11 INFO  - By.xpath: //span[.='Practice Form']<- found
+20:30:11 INFO  - Start search ->By.id: firstName
+20:30:11 INFO  - By.id: firstName<- found
+20:30:12 INFO  - Start search ->By.id: firstName
+20:30:12 INFO  - By.id: firstName<- found
+20:30:12 INFO  - Start search ->By.id: firstName
+20:30:12 INFO  - By.id: firstName<- found
+20:30:12 INFO  - Start search ->By.id: lastName
+20:30:12 INFO  - By.id: lastName<- found
+20:30:12 INFO  - Start search ->By.id: lastName
+20:30:12 INFO  - By.id: lastName<- found
+20:30:12 INFO  - Start search ->By.id: lastName
+20:30:12 INFO  - By.id: lastName<- found
+20:30:12 INFO  - Start search ->By.id: userEmail
+20:30:12 INFO  - By.id: userEmail<- found
+20:30:12 INFO  - Start search ->By.id: userEmail
+20:30:12 INFO  - By.id: userEmail<- found
+20:30:12 INFO  - Start search ->By.id: userEmail
+20:30:12 INFO  - By.id: userEmail<- found
+20:30:12 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+20:30:12 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+20:30:13 INFO  - Start search ->By.id: userNumber
+20:30:13 INFO  - By.id: userNumber<- found
+20:30:13 INFO  - Start search ->By.id: userNumber
+20:30:13 INFO  - By.id: userNumber<- found
+20:30:13 INFO  - Start search ->By.id: userNumber
+20:30:13 INFO  - By.id: userNumber<- found
+20:30:13 INFO  - Start search ->By.id: dateOfBirthInput
+20:30:13 INFO  - By.id: dateOfBirthInput<- found
+20:30:14 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+20:30:14 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+20:30:14 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "May"]
+20:30:14 INFO  - By.xpath: .//option[normalize-space(.) = "May"]<- found
+20:30:14 INFO  - Start search ->By.cssSelector: .react-datepicker__year-select
+20:30:14 INFO  - By.cssSelector: .react-datepicker__year-select<- found
+20:30:14 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "1999"]
+20:30:14 INFO  - By.xpath: .//option[normalize-space(.) = "1999"]<- found
+20:30:14 INFO  - Start search ->By.xpath: //div[.='25']
+20:30:14 INFO  - By.xpath: //div[.='25']<- found
+20:30:14 INFO  - Start search ->By.id: currentAddress
+20:30:14 INFO  - By.id: currentAddress<- found
+20:30:15 INFO  - Start search ->By.id: submit
+20:30:15 INFO  - By.id: submit<- found
+20:30:15 INFO  - End of test -> studentRegFormTest
+************************************

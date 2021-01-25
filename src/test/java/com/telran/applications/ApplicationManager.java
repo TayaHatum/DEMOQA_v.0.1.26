@@ -16,7 +16,12 @@ public class ApplicationManager {
      HelperForModelBase modelBase;
      HelperUser user;
      HelperStudentForm student;
+     HelperElements element;
     String browser;
+
+    public HelperElements element() {
+        return element;
+    }
 
     public HelperStudentForm student() {
         return student;
@@ -46,6 +51,7 @@ public class ApplicationManager {
        modelBase =new HelperForModelBase(wd);
         user=new HelperUser(wd);
         student=new HelperStudentForm(wd);
+        element= new HelperElements(wd);
 
         //Display logback status!
         // LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();

@@ -1,0 +1,45 @@
+18:12:55 INFO  - Start test - >studentRegFormTest
+18:12:55 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+18:12:55 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+18:12:55 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+18:12:55 INFO  - By.xpath: //span[.='Practice Form']<- found
+18:12:55 INFO  - Start search ->By.id: firstName
+18:12:55 INFO  - By.id: firstName<- found
+18:12:55 INFO  - Start search ->By.id: firstName
+18:12:55 INFO  - By.id: firstName<- found
+18:12:55 INFO  - Start search ->By.id: firstName
+18:12:55 INFO  - By.id: firstName<- found
+18:12:55 INFO  - Start search ->By.id: lastName
+18:12:55 INFO  - By.id: lastName<- found
+18:12:55 INFO  - Start search ->By.id: lastName
+18:12:55 INFO  - By.id: lastName<- found
+18:12:55 INFO  - Start search ->By.id: lastName
+18:12:55 INFO  - By.id: lastName<- found
+18:12:55 INFO  - Start search ->By.id: userEmail
+18:12:55 INFO  - By.id: userEmail<- found
+18:12:55 INFO  - Start search ->By.id: userEmail
+18:12:55 INFO  - By.id: userEmail<- found
+18:12:56 INFO  - Start search ->By.id: userEmail
+18:12:56 INFO  - By.id: userEmail<- found
+18:12:56 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+18:12:56 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+18:12:56 INFO  - Start search ->By.id: userNumber
+18:12:56 INFO  - By.id: userNumber<- found
+18:12:56 INFO  - Start search ->By.id: userNumber
+18:12:56 INFO  - By.id: userNumber<- found
+18:12:56 INFO  - Start search ->By.id: userNumber
+18:12:56 INFO  - By.id: userNumber<- found
+18:12:57 INFO  - Start search ->By.id: dateOfBirthInput
+18:12:57 INFO  - By.id: dateOfBirthInput<- found
+18:12:57 INFO  - Start search ->By.id: submit
+18:12:57 INFO  - By.id: submit<- found
+18:12:58 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="submit" type="submit" class="btn btn-primary">...</button> is not clickable at point (1018, 733). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:875:6837:8444:8711%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:53503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e06e812ab4a084deb979a1667f8f0dc
+18:12:59 ERROR - src/test/screenshots/screen-1611591178456.png
+18:12:59 INFO  - End of test -> studentRegFormTest
+************************************

@@ -1,0 +1,55 @@
+20:09:00 INFO  - Start test - >studentRegFormTest
+20:09:00 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+20:09:00 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+20:09:00 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+20:09:00 INFO  - By.xpath: //span[.='Practice Form']<- found
+20:09:01 INFO  - Start search ->By.id: firstName
+20:09:01 INFO  - By.id: firstName<- found
+20:09:01 INFO  - Start search ->By.id: firstName
+20:09:01 INFO  - By.id: firstName<- found
+20:09:01 INFO  - Start search ->By.id: firstName
+20:09:01 INFO  - By.id: firstName<- found
+20:09:01 INFO  - Start search ->By.id: lastName
+20:09:01 INFO  - By.id: lastName<- found
+20:09:01 INFO  - Start search ->By.id: lastName
+20:09:01 INFO  - By.id: lastName<- found
+20:09:01 INFO  - Start search ->By.id: lastName
+20:09:01 INFO  - By.id: lastName<- found
+20:09:01 INFO  - Start search ->By.id: userEmail
+20:09:01 INFO  - By.id: userEmail<- found
+20:09:01 INFO  - Start search ->By.id: userEmail
+20:09:01 INFO  - By.id: userEmail<- found
+20:09:01 INFO  - Start search ->By.id: userEmail
+20:09:02 INFO  - By.id: userEmail<- found
+20:09:02 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+20:09:02 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+20:09:02 INFO  - Start search ->By.id: userNumber
+20:09:02 INFO  - By.id: userNumber<- found
+20:09:02 INFO  - Start search ->By.id: userNumber
+20:09:02 INFO  - By.id: userNumber<- found
+20:09:02 INFO  - Start search ->By.id: userNumber
+20:09:02 INFO  - By.id: userNumber<- found
+20:09:03 INFO  - Start search ->By.id: dateOfBirthInput
+20:09:03 INFO  - By.id: dateOfBirthInput<- found
+20:09:03 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+20:09:03 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+20:09:03 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "May"]
+20:09:03 INFO  - By.xpath: .//option[normalize-space(.) = "May"]<- found
+20:09:03 INFO  - Start search ->By.cssSelector: .react-datepicker__year-select
+20:09:03 INFO  - By.cssSelector: .react-datepicker__year-select<- found
+20:09:03 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "1999"]
+20:09:03 INFO  - By.xpath: .//option[normalize-space(.) = "1999"]<- found
+20:09:03 INFO  - Start search ->By.xpath: //div[.='25']
+20:09:03 INFO  - By.xpath: //div[.='25']<- found
+20:09:03 INFO  - Start search ->By.id: currentAddress
+20:09:03 INFO  - By.id: currentAddress<- found
+20:09:05 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <textarea placeholder="Current Address" rows="5" cols="20" id="currentAddress" class="form-control"></textarea> is not clickable at point (807, 696). Other element would receive the click: <span>...</span>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:875:6837:8444:8711%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:61738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e923262578ad5a0cfbab5d88c948f09e
+20:09:06 ERROR - src/test/screenshots/screen-1611598145129.png
+20:09:06 INFO  - End of test -> studentRegFormTest
+************************************

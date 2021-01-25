@@ -1,0 +1,11 @@
+21:39:27 INFO  - Start test - >testtest
+21:39:27 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+21:39:27 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+21:39:27 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+21:39:27 INFO  - By.xpath: //span[.='Practice Form']<- found
+21:39:27 INFO  - Start search ->By.id: dateOfBirthInput
+21:39:27 INFO  - By.id: dateOfBirthInput<- found
+21:39:28 INFO  - Start search ->By.xpath: //div[.='25']
+21:39:28 INFO  - By.xpath: //div[.='25']<- found
+21:39:38 INFO  - End of test -> testtest
+************************************

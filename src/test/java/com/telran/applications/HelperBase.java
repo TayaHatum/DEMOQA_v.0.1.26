@@ -26,6 +26,15 @@ public class HelperBase {
             wd.findElement(locator).sendKeys(text);
         }
     }
+    public void typeWithJSE(By locator, String text){
+        if(text!=null){
+            JavascriptExecutor js = (JavascriptExecutor) wd;
+            js.executeScript("window.scrollBy(0,300)");
+            click(locator);
+            wd.findElement(locator).clear();
+            wd.findElement(locator).sendKeys(text);
+        }
+    }
 
     public void click(By locator) {
         try {
@@ -48,6 +57,7 @@ public class HelperBase {
         element.clear();
         element.sendKeys(text);
     }
+
     public void typeByCss(String cssSelector, String text) {
         clickByCss(cssSelector);
         wd.findElement(By.cssSelector(cssSelector)).clear();

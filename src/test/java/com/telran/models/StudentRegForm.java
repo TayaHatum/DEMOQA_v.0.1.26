@@ -14,6 +14,11 @@ public class StudentRegForm {
     String state;
     String city;
 
+    public StudentRegForm withAddress(String address) {
+        this.address = address;
+        return this;
+    }
+
     public StudentRegForm withfName(String fName) {
         this.fName = fName;
         return this;

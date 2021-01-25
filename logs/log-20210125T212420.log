@@ -1,0 +1,11 @@
+21:24:25 INFO  - Start test - >testtest
+21:24:25 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+21:24:25 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+21:24:25 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+21:24:25 INFO  - By.xpath: //span[.='Practice Form']<- found
+21:24:25 INFO  - Start search ->By.id: dateOfBirthInput
+21:24:25 INFO  - By.id: dateOfBirthInput<- found
+21:24:25 INFO  - Start search ->By.xpath: (//div[@class='react-datepicker__month']/div/div)[1]
+21:24:26 INFO  - By.xpath: (//div[@class='react-datepicker__month']/div/div)[1]<- found
+21:24:26 INFO  - End of test -> testtest
+************************************

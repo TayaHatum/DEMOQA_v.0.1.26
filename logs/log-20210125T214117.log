@@ -1,0 +1,19 @@
+21:41:21 INFO  - Start test - >testtest
+21:41:21 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+21:41:21 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+21:41:22 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+21:41:22 INFO  - By.xpath: //span[.='Practice Form']<- found
+21:41:22 INFO  - Start search ->By.id: dateOfBirthInput
+21:41:22 INFO  - By.id: dateOfBirthInput<- found
+21:41:22 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+21:41:22 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+21:41:22 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "May"]
+21:41:22 INFO  - By.xpath: .//option[normalize-space(.) = "May"]<- found
+21:41:22 INFO  - Start search ->By.cssSelector: .react-datepicker__year-select
+21:41:22 INFO  - By.cssSelector: .react-datepicker__year-select<- found
+21:41:22 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "1999"]
+21:41:22 INFO  - By.xpath: .//option[normalize-space(.) = "1999"]<- found
+21:41:22 INFO  - Start search ->By.xpath: //div[.='25']
+21:41:22 INFO  - By.xpath: //div[.='25']<- found
+21:41:32 INFO  - End of test -> testtest
+************************************
