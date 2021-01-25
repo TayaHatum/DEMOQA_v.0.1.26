@@ -1,0 +1,81 @@
+23:44:57 INFO  - Start test - >studentRegFormTest
+23:44:57 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+23:44:57 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+23:44:57 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+23:44:57 INFO  - By.xpath: //span[.='Practice Form']<- found
+23:44:57 INFO  - Start search ->By.id: firstName
+23:44:57 INFO  - By.id: firstName<- found
+23:44:57 INFO  - Start search ->By.id: firstName
+23:44:57 INFO  - By.id: firstName<- found
+23:44:57 INFO  - Start search ->By.id: firstName
+23:44:57 INFO  - By.id: firstName<- found
+23:44:57 INFO  - Start search ->By.id: lastName
+23:44:57 INFO  - By.id: lastName<- found
+23:44:57 INFO  - Start search ->By.id: lastName
+23:44:57 INFO  - By.id: lastName<- found
+23:44:57 INFO  - Start search ->By.id: lastName
+23:44:57 INFO  - By.id: lastName<- found
+23:44:57 INFO  - Start search ->By.id: userEmail
+23:44:57 INFO  - By.id: userEmail<- found
+23:44:57 INFO  - Start search ->By.id: userEmail
+23:44:57 INFO  - By.id: userEmail<- found
+23:44:57 INFO  - Start search ->By.id: userEmail
+23:44:57 INFO  - By.id: userEmail<- found
+23:44:58 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+23:44:58 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+23:44:58 INFO  - Start search ->By.id: userNumber
+23:44:58 INFO  - By.id: userNumber<- found
+23:44:58 INFO  - Start search ->By.id: userNumber
+23:44:58 INFO  - By.id: userNumber<- found
+23:44:58 INFO  - Start search ->By.id: userNumber
+23:44:58 INFO  - By.id: userNumber<- found
+23:44:58 INFO  - Start search ->By.id: dateOfBirthInput
+23:44:58 INFO  - By.id: dateOfBirthInput<- found
+23:44:58 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+23:44:59 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+23:44:59 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "May"]
+23:44:59 INFO  - By.xpath: .//option[normalize-space(.) = "May"]<- found
+23:44:59 INFO  - Start search ->By.cssSelector: .react-datepicker__year-select
+23:44:59 INFO  - By.cssSelector: .react-datepicker__year-select<- found
+23:44:59 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "1999"]
+23:44:59 INFO  - By.xpath: .//option[normalize-space(.) = "1999"]<- found
+23:44:59 INFO  - Start search ->By.xpath: //div[.='25']
+23:44:59 INFO  - By.xpath: //div[.='25']<- found
+23:44:59 INFO  - Start search ->By.id: currentAddress
+23:44:59 INFO  - By.id: currentAddress<- found
+23:44:59 INFO  - Start search ->By.id: react-select-3-input
+23:44:59 INFO  - By.id: react-select-3-input<- found
+23:45:00 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-3-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (570, 401). Other element would receive the click: <div class=" css-1wa3eu0-placeholder">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:875:6837:8444:8711%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:63889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2143ee7504d714aef7f37068f7ac7bcb
+23:45:01 ERROR - src/test/screenshots/screen-1611611100612.png
+23:45:01 INFO  - Start search ->By.id: react-select-3-input
+23:45:01 INFO  - By.id: react-select-3-input<- found
+23:45:01 INFO  - Start search ->By.id: react-select-3-input
+23:45:01 INFO  - By.id: react-select-3-input<- found
+23:45:01 INFO  - Start search ->By.id: react-select-3-input
+23:45:01 INFO  - By.id: react-select-3-input<- found
+23:45:01 INFO  - Start search ->By.id: react-select-4-input
+23:45:01 INFO  - By.id: react-select-4-input<- found
+23:45:02 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-4-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (805, 401). Other element would receive the click: <div class=" css-1wa3eu0-placeholder">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:875:6837:8444:8711%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:63889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2143ee7504d714aef7f37068f7ac7bcb
+23:45:03 ERROR - src/test/screenshots/screen-1611611102557.png
+23:45:03 INFO  - Start search ->By.id: react-select-4-input
+23:45:03 INFO  - By.id: react-select-4-input<- found
+23:45:03 INFO  - Start search ->By.id: react-select-4-input
+23:45:03 INFO  - By.id: react-select-4-input<- found
+23:45:03 INFO  - Start search ->By.id: react-select-4-input
+23:45:03 INFO  - By.id: react-select-4-input<- found
+23:45:03 INFO  - Start search ->By.id: submit
+23:45:03 INFO  - By.id: submit<- found
+23:45:03 INFO  - End of test -> studentRegFormTest
+************************************

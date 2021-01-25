@@ -34,6 +34,8 @@ public class HelperStudentForm extends HelperBase {
         //typeBDay(model.getbDay());
         typeBDaySelet(model.getbDay());
         typeAdress(model.getAddress());
+        typeState(model.getState());
+        typeCity(model.getCity());
     }
 
     private void typeAdress(String text) {
@@ -79,6 +81,16 @@ public class HelperStudentForm extends HelperBase {
         //type(By.id("dateOfBirthInput"),bday);
         //wd.findElement(By.id("dateOfBirthInput")).sendKeys(Keys.ENTER);
 
+    }
+
+    private void typeState(String state){
+        typeWithJSE(By.id("react-select-3-input"),state);
+        wd.findElement(By.id("react-select-3-input")).sendKeys(Keys.ENTER);
+    }
+
+    private void typeCity(String city){
+        typeWithJSE(By.id("react-select-4-input"),city);
+        wd.findElement(By.id("react-select-4-input")).sendKeys(Keys.ENTER);
     }
 
     private void selectGender(String gender) {
