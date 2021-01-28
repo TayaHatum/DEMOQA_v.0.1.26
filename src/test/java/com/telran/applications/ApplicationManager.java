@@ -8,15 +8,21 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-
+Properties properties;
     EventFiringWebDriver wd;
      HelperForModelBase modelBase;
      HelperUser user;
      HelperStudentForm student;
      HelperElements element;
+     HelperAlertWindows alertWindows;
     String browser;
 
     public HelperElements element() {
@@ -37,10 +43,14 @@ public class ApplicationManager {
 
     public ApplicationManager(String browser) {
         this.browser = browser;
+        properties = new Properties();
     }
     Logger logger= LoggerFactory.getLogger(ApplicationManager.class);
 
-    public void start() {
+    public void start() throws IOException {
+        String target = System.getProperty("target","data");
+        properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties",target))));
+
         if(browser.equals(BrowserType.CHROME)){
             wd = new EventFiringWebDriver(new ChromeDriver());
         }else if (browser.equals(BrowserType.FIREFOX)){
@@ -52,6 +62,7 @@ public class ApplicationManager {
         user=new HelperUser(wd);
         student=new HelperStudentForm(wd);
         element= new HelperElements(wd);
+        alertWindows = new HelperAlertWindows(wd);
 
         //Display logback status!
         // LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
@@ -60,11 +71,15 @@ public class ApplicationManager {
 
 
         wd.register(new MyListener());
-        wd.navigate().to("https://demoqa.com/");
+        wd.navigate().to(properties.getProperty("web.baseUrl"));     //https://demoqa.com/
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
+    }
+
+    public HelperAlertWindows alertWindows() {
+        return alertWindows;
     }
 
     public void stop() {

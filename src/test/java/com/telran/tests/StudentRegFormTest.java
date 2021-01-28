@@ -16,10 +16,11 @@ public class StudentRegFormTest extends TestBase {
                 .withGender("Male")
                 .withPhone("1234567891")
                 .withbDay("25 May 1999")
-
-        .withAddress("Haifa")
-        .withState("NCR")
-        .withCity("Gurgaon"));
+                .withSubject("Maths")
+                .withHobbies("Sport")
+                .withAddress("Haifa")
+                .withState("NCR")
+                .withCity("Gurgaon"));
 
         app.student().submit();
 
