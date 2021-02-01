@@ -15,6 +15,7 @@ public class AlertWindows extends TestBase{
 
     @Test
     public void alertTest(){
+
         app.alertWindows().testAlert();
     }
 }

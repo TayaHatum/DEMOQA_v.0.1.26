@@ -1,0 +1,11 @@
+21:57:45 INFO  - Start test - >testWindows
+21:57:45 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+21:57:45 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+21:57:45 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+21:57:45 INFO  - By.xpath: //span[.='Browser Windows']<- found
+21:57:45 INFO  - Start search ->By.id: tabButton
+21:57:45 INFO  - By.id: tabButton<- found
+21:57:46 INFO  - Start search ->By.id: sampleHeading
+21:57:46 INFO  - By.id: sampleHeading<- found
+21:57:46 INFO  - End of test -> testWindows
+************************************

@@ -1,0 +1,26 @@
+19:37:08 INFO  - Start test - >testMultiSelect
+19:37:08 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+19:37:09 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+19:37:09 INFO  - Start search ->By.xpath: //li[@id='item-8']
+19:37:09 INFO  - By.xpath: //li[@id='item-8']<- found
+19:37:19 ERROR - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=88.0.4324.96)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:60820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9d469e4fea56ef98d035e7994d2342fe
+19:37:20 ERROR - src/test/screenshots/screen-1612201039336.png
+19:37:20 INFO  - Start search ->By.id: cars
+19:37:30 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#cars"}
+  (Session info: chrome=88.0.4324.96)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:60820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9d469e4fea56ef98d035e7994d2342fe
+*** Element info: {Using=id, value=cars}
+19:37:31 ERROR - src/test/screenshots/screen-1612201050416.png
+19:37:31 INFO  - End of test -> testMultiSelect
+************************************

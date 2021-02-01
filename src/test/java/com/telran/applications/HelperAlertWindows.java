@@ -2,6 +2,7 @@ package com.telran.applications;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +13,9 @@ public class HelperAlertWindows extends HelperBase{
     }
 
     public void selectItemAlert() {
-        clickByxPath("//div//h5[.='Alerts, Frame & Windows']");
+        Actions actions = new Actions(wd);
+        actions.moveToElement(wd.findElement(By.xpath("//div//h5[.='Alerts, Frame & Windows']"))).click().perform();
+        //clickByxPath("//div//h5[.='Alerts, Frame & Windows']");
     }
 
     public void selectBrowserWindows() {
@@ -33,10 +36,10 @@ public class HelperAlertWindows extends HelperBase{
 
     public void testAlert() {
         //Ok
-        wd.switchTo().alert().accept();
+        //wd.switchTo().alert().accept();
         //Cancel
-        wd.switchTo().alert().dismiss();
+       // wd.switchTo().alert().dismiss();
         //send mess
-        wd.switchTo().alert().sendKeys("text");
+        //wd.switchTo().alert().sendKeys("text");
     }
 }

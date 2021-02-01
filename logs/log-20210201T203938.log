@@ -1,0 +1,15 @@
+20:39:46 INFO  - Start test - >testMultiSelect
+20:39:46 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+20:39:46 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+20:39:46 INFO  - Start search ->By.xpath: //li[@id='item-8']
+20:39:46 INFO  - By.xpath: //li[@id='item-8']<- found
+20:39:56 ERROR - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=88.0.4324.96)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:875:6837:8444:8711%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:57722}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 409c9ca1dfa76ccff7c3b7959ad73c2d
+20:39:57 ERROR - src/test/screenshots/screen-1612204796748.png
+20:39:57 INFO  - End of test -> testMultiSelect
+************************************

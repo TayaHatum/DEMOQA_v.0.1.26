@@ -23,7 +23,17 @@ Properties properties;
      HelperStudentForm student;
      HelperElements element;
      HelperAlertWindows alertWindows;
+     HelperSelect select;
+     HelperJSExecuter js;
     String browser;
+
+    public HelperJSExecuter js() {
+        return js;
+    }
+
+    public HelperSelect select() {
+        return select;
+    }
 
     public HelperElements element() {
         return element;
@@ -63,6 +73,8 @@ Properties properties;
         student=new HelperStudentForm(wd);
         element= new HelperElements(wd);
         alertWindows = new HelperAlertWindows(wd);
+        select = new HelperSelect(wd);
+        js = new HelperJSExecuter(wd);
 
         //Display logback status!
         // LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();

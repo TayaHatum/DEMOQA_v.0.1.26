@@ -102,6 +102,21 @@ public class HelperStudentForm extends HelperBase {
         typeWithJSE(By.id("react-select-4-input"), city);
         wd.findElement(By.id("react-select-4-input")).sendKeys(Keys.ENTER);
     }
+    private void selectHobbies(String hobbie) {
+        if (hobbie.equals("Sports")) {
+            clickByCss("label[for='hobbies-checkbox-1']");
+        } else if (hobbie.equals("Reading")) {
+            clickByCss("label[for='hobbies-checkbox-2']");
+        } else clickByCss("label[for='hobbies-checkbox-3']");
+
+
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.getElementById('hobbies-checkbox-1').checked=false;");
+
+
+    }
+
+
 
     private void selectGender(String gender) {
 

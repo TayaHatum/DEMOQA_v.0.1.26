@@ -1,0 +1,163 @@
+21:10:38 INFO  - Start test - >alertTest
+21:10:38 INFO  - End of test -> alertTest
+************************************
+21:10:38 INFO  - Start test - >testWindows
+21:10:38 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+21:10:38 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+21:10:38 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+21:10:38 INFO  - By.xpath: //span[.='Browser Windows']<- found
+21:10:38 INFO  - Start search ->By.id: tabButton
+21:10:38 INFO  - By.id: tabButton<- found
+21:10:38 INFO  - Start search ->By.id: sampleHeading
+21:10:38 INFO  - By.id: sampleHeading<- found
+21:10:38 INFO  - End of test -> testWindows
+************************************
+21:10:42 INFO  - Start test - >testform
+21:10:42 INFO  - End of test -> testform
+************************************
+21:10:46 INFO  - Start test - >jsexcuterTest
+21:10:46 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[1]
+21:10:46 INFO  - By.xpath: //div[@class='category-cards']/div[1]<- found
+21:10:46 INFO  - Start search ->By.xpath: //span[.='Text Box']
+21:10:46 INFO  - By.xpath: //span[.='Text Box']<- found
+21:10:55 INFO  - End of test -> jsexcuterTest
+************************************
+21:10:59 INFO  - Start test - >logintest
+21:10:59 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[6]
+21:10:59 INFO  - By.xpath: //div[@class='category-cards']/div[6]<- found
+21:11:00 INFO  - Start search ->By.xpath: //*[@id='login']
+21:11:00 INFO  - By.xpath: //*[@id='login']<- found
+21:11:00 INFO  - Start search ->By.id: userName
+21:11:00 INFO  - By.id: userName<- found
+21:11:00 INFO  - Start search ->By.id: userName
+21:11:00 INFO  - By.id: userName<- found
+21:11:00 INFO  - Start search ->By.id: userName
+21:11:00 INFO  - By.id: userName<- found
+21:11:00 INFO  - Start search ->By.id: password
+21:11:00 INFO  - By.id: password<- found
+21:11:00 INFO  - Start search ->By.id: password
+21:11:00 INFO  - By.id: password<- found
+21:11:01 INFO  - Start search ->By.id: password
+21:11:01 INFO  - By.id: password<- found
+21:11:01 INFO  - Start search ->By.xpath: //*[@id='login']
+21:11:01 INFO  - By.xpath: //*[@id='login']<- found
+21:11:03 INFO  - Start search ->By.id: submit
+21:11:03 INFO  - By.id: submit<- found
+21:11:03 INFO  - End of test -> logintest
+************************************
+21:11:06 INFO  - Start test - >testMultiSelect
+21:11:06 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+21:11:06 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+21:11:06 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+21:11:06 INFO  - By.xpath: //span[.='Select Menu']<- found
+21:11:07 INFO  - Start search ->By.id: cars
+21:11:07 INFO  - By.id: cars<- found
+21:11:07 INFO  - Start search ->By.tagName: option
+21:11:07 INFO  - By.tagName: option<- found
+21:11:07 INFO  - Start search ->By.tagName: option
+21:11:07 INFO  - By.tagName: option<- found
+21:11:07 INFO  - Start search ->By.tagName: option
+21:11:07 INFO  - By.tagName: option<- found
+21:11:07 INFO  - Start search ->By.id: selectOne
+21:11:07 INFO  - By.id: selectOne<- found
+21:11:07 INFO  - Start search ->By.xpath: //*[text()='Mr.']
+21:11:07 INFO  - By.xpath: //*[text()='Mr.']<- found
+21:11:12 INFO  - End of test -> testMultiSelect
+************************************
+21:11:16 INFO  - Start test - >studentRegFormTest
+21:11:16 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+21:11:16 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+21:11:16 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+21:11:16 INFO  - By.xpath: //span[.='Practice Form']<- found
+21:11:16 INFO  - Start search ->By.id: firstName
+21:11:16 INFO  - By.id: firstName<- found
+21:11:16 INFO  - Start search ->By.id: firstName
+21:11:16 INFO  - By.id: firstName<- found
+21:11:16 INFO  - Start search ->By.id: firstName
+21:11:16 INFO  - By.id: firstName<- found
+21:11:16 INFO  - Start search ->By.id: lastName
+21:11:16 INFO  - By.id: lastName<- found
+21:11:16 INFO  - Start search ->By.id: lastName
+21:11:16 INFO  - By.id: lastName<- found
+21:11:16 INFO  - Start search ->By.id: lastName
+21:11:16 INFO  - By.id: lastName<- found
+21:11:16 INFO  - Start search ->By.id: userEmail
+21:11:16 INFO  - By.id: userEmail<- found
+21:11:16 INFO  - Start search ->By.id: userEmail
+21:11:16 INFO  - By.id: userEmail<- found
+21:11:16 INFO  - Start search ->By.id: userEmail
+21:11:16 INFO  - By.id: userEmail<- found
+21:11:17 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+21:11:17 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+21:11:17 INFO  - Start search ->By.id: userNumber
+21:11:17 INFO  - By.id: userNumber<- found
+21:11:17 INFO  - Start search ->By.id: userNumber
+21:11:17 INFO  - By.id: userNumber<- found
+21:11:17 INFO  - Start search ->By.id: userNumber
+21:11:17 INFO  - By.id: userNumber<- found
+21:11:17 INFO  - Start search ->By.id: dateOfBirthInput
+21:11:17 INFO  - By.id: dateOfBirthInput<- found
+21:11:17 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+21:11:18 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+21:11:18 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "May"]
+21:11:18 INFO  - By.xpath: .//option[normalize-space(.) = "May"]<- found
+21:11:18 INFO  - Start search ->By.cssSelector: .react-datepicker__year-select
+21:11:18 INFO  - By.cssSelector: .react-datepicker__year-select<- found
+21:11:18 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "1999"]
+21:11:18 INFO  - By.xpath: .//option[normalize-space(.) = "1999"]<- found
+21:11:18 INFO  - Start search ->By.xpath: //div[.='25']
+21:11:18 INFO  - By.xpath: //div[.='25']<- found
+21:11:18 INFO  - Start search ->By.id: currentAddress
+21:11:18 INFO  - By.id: currentAddress<- found
+21:11:18 INFO  - Start search ->By.id: react-select-3-input
+21:11:18 INFO  - By.id: react-select-3-input<- found
+21:11:19 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-3-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (570, 401). Other element would receive the click: <div class=" css-1wa3eu0-placeholder">...</div>
+  (Session info: chrome=88.0.4324.96)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:875:6837:8444:8711%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:58999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87ca1b1fbfb26585daa7c6b4cb37ad65
+21:11:20 ERROR - src/test/screenshots/screen-1612206679653.png
+21:11:20 INFO  - Start search ->By.id: react-select-3-input
+21:11:20 INFO  - By.id: react-select-3-input<- found
+21:11:20 INFO  - Start search ->By.id: react-select-3-input
+21:11:20 INFO  - By.id: react-select-3-input<- found
+21:11:20 INFO  - Start search ->By.id: react-select-3-input
+21:11:20 INFO  - By.id: react-select-3-input<- found
+21:11:20 INFO  - Start search ->By.id: react-select-4-input
+21:11:20 INFO  - By.id: react-select-4-input<- found
+21:11:21 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-4-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (805, 401). Other element would receive the click: <div class=" css-1wa3eu0-placeholder">...</div>
+  (Session info: chrome=88.0.4324.96)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:875:6837:8444:8711%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:58999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87ca1b1fbfb26585daa7c6b4cb37ad65
+21:11:22 ERROR - src/test/screenshots/screen-1612206681632.png
+21:11:22 INFO  - Start search ->By.id: react-select-4-input
+21:11:22 INFO  - By.id: react-select-4-input<- found
+21:11:22 INFO  - Start search ->By.id: react-select-4-input
+21:11:22 INFO  - By.id: react-select-4-input<- found
+21:11:22 INFO  - Start search ->By.id: react-select-4-input
+21:11:22 INFO  - By.id: react-select-4-input<- found
+21:11:22 INFO  - Start search ->By.id: submit
+21:11:22 INFO  - By.id: submit<- found
+21:11:22 INFO  - End of test -> studentRegFormTest
+************************************
+21:11:27 INFO  - Start test - >testForDataProvider
+21:11:27 INFO  - End of test -> testForDataProvider
+************************************
+21:11:27 INFO  - Start test - >testForDataProviderFromFile
+21:11:27 INFO  - End of test -> testForDataProviderFromFile
+************************************
+21:11:27 INFO  - Start test - >testForListener
+21:11:27 INFO  - End of test -> testForListener
+************************************
+21:11:27 INFO  - Start test - >testForLogger
+21:11:27 INFO  - Hello DEMO QA 
+21:11:27 INFO  - End of test -> testForLogger
+************************************
+21:11:27 INFO  - Start test - >testForScreenshots
+21:11:27 INFO  - End of test -> testForScreenshots
+************************************
