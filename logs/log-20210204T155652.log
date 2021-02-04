@@ -1,0 +1,17 @@
+15:56:56 INFO  - Start test - >testMultiSelect
+15:56:56 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+15:56:56 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+15:56:56 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+15:56:56 INFO  - By.xpath: //span[.='Select Menu']<- found
+15:56:56 INFO  - Start search ->By.id: cars
+15:56:56 INFO  - By.id: cars<- found
+15:56:56 ERROR - org.openqa.selenium.JavascriptException: javascript error: document.getElementById(...).querySelectorAll(...).foreach is not a function
+  (Session info: chrome=88.0.4324.96)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:c74:63a:2563:c314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:53034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 949c2e505846c0b343607e1527f5e9f4
+15:56:57 ERROR - src/test/screenshots/screen-1612447016945.png
+15:56:57 INFO  - End of test -> testMultiSelect
+************************************

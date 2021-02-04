@@ -1,8 +1,11 @@
 package com.telran.applications;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,5 +44,24 @@ public class HelperAlertWindows extends HelperBase{
        // wd.switchTo().alert().dismiss();
         //send mess
         //wd.switchTo().alert().sendKeys("text");
+    }
+
+    public void clickAlertButton2() {
+        click(By.id("timerAlertButton"));
+        WebDriverWait wait = new WebDriverWait(wd,10);
+        Alert myAlert= wait.until(ExpectedConditions.alertIsPresent());
+        myAlert.accept();
+    }
+
+    public void selectAlert() {
+        click(By.xpath("//span[.='Alerts']"));
+        //span[.='Alerts']
+    }
+
+    public void clickWithWait() {
+        click(By.id("timerAlertButton"));
+        WebDriverWait wait =new WebDriverWait(wd,10);
+        Alert alert=wait.until(ExpectedConditions.alertIsPresent());
+        alert.accept();
     }
 }

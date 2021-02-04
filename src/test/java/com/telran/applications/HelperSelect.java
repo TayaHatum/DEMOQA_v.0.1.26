@@ -21,9 +21,16 @@ public class HelperSelect extends HelperBase{
     public void clickMultiSelect() {
         Select cars = new Select(wd.findElement(By.id("cars")));
         if (cars.isMultiple()) {
-            cars.selectByIndex(1);
-            cars.selectByIndex(2);
-            cars.selectByIndex(3);
+           JavascriptExecutor js = (JavascriptExecutor) wd;
+
+           js.executeScript("document.getElementById('cars').querySelectorAll('option').forEach(o => o.selected = true);");
+
+           //document.getElementById('cars').querySelectorAll('option').forEach((o,i) => o.selected = i % 2 === 0);
+            //document.getElementById('cars').querySelectorAll('option').forEach((o,i) => o.selected = i === 0 || i === 3);
+            //document.getElementById('cars').querySelectorAll('option').forEach((o,i) => o.selected = i !== 1);
+            //cars.selectByIndex(1);
+            //cars.selectByIndex(2);
+            //cars.selectByIndex(3);
         }
     }
 public void selectMr(String text){

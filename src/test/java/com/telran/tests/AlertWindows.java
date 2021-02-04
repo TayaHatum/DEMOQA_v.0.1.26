@@ -13,9 +13,21 @@ public class AlertWindows extends TestBase{
         Assert.assertTrue(app.alertWindows().takeText().contains("page"));
     }
 
-    @Test
+    @Test(enabled = false)
     public void alertTest(){
 
         app.alertWindows().testAlert();
+    }
+    @Test
+    public void alertTestWait(){
+        app.alertWindows().selectItemAlert();
+        app.alertWindows().selectAlert();
+        app.alertWindows().clickWithWait();
+
+
+
+
+
+
     }
 }

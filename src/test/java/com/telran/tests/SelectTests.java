@@ -15,7 +15,7 @@ public class SelectTests extends TestBase {
     @Test
     public void testMultiSelect() throws InterruptedException {
         app.select().clickMultiSelect();
-        app.select().selectMr("Mr.");
+        //app.select().selectMr("Mr.");
         app.select().pause(5000);
     }
 }
