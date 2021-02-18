@@ -73,8 +73,12 @@ public class HelperBase {
     public void clickByxPath(String xPathSelector) {
         wd.findElement(By.xpath(xPathSelector)).click();
     }
-    public void pause(int millis) throws InterruptedException {
-        Thread.sleep(millis);
+    public void pause(int millis) {
+        try {
+            Thread.sleep(millis);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
     public boolean isElementPresent(By locator) {
         return wd.findElements(locator).size()>0;
@@ -96,5 +100,9 @@ public class HelperBase {
 
         System.out.println("I can fill fild1 ->"+modelBase.getFild1());
         System.out.println("I can fill fild2 ->"+modelBase.getFild2());
+    }
+    public void hideFooter(){
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('footer').style.display='none';");
     }
 }

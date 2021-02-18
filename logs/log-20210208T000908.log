@@ -1,0 +1,162 @@
+00:09:12 INFO  - Start test - >alertTestWait
+00:09:12 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+00:09:12 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+00:09:13 INFO  - Start search ->By.xpath: //span[.='Alerts']
+00:09:13 INFO  - By.xpath: //span[.='Alerts']<- found
+00:09:13 INFO  - Start search ->By.id: timerAlertButton
+00:09:13 INFO  - By.id: timerAlertButton<- found
+00:09:18 INFO  - End of test -> alertTestWait
+************************************
+00:09:18 INFO  - Start test - >testWindows
+00:09:18 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+00:09:28 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[.='Alerts, Frame & Windows']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:c74:63a:2563:c314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:59965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 61a30d00c7a621cefa8b3417c3cc3ce6
+*** Element info: {Using=xpath, value=//div//h5[.='Alerts, Frame & Windows']}
+00:09:29 ERROR - src/test/screenshots/screen-1612735768470.png
+00:09:29 INFO  - End of test -> testWindows
+************************************
+00:09:33 INFO  - Start test - >testform
+00:09:33 INFO  - End of test -> testform
+************************************
+00:09:37 INFO  - Start test - >jsexcuterTest
+00:09:37 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[1]
+00:09:37 INFO  - By.xpath: //div[@class='category-cards']/div[1]<- found
+00:09:37 INFO  - Start search ->By.xpath: //span[.='Text Box']
+00:09:37 INFO  - By.xpath: //span[.='Text Box']<- found
+00:09:46 INFO  - End of test -> jsexcuterTest
+************************************
+00:09:50 INFO  - Start test - >logintest
+00:09:50 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[6]
+00:09:50 INFO  - By.xpath: //div[@class='category-cards']/div[6]<- found
+00:09:51 INFO  - Start search ->By.xpath: //*[@id='login']
+00:09:51 INFO  - By.xpath: //*[@id='login']<- found
+00:09:51 INFO  - Start search ->By.id: userName
+00:09:51 INFO  - By.id: userName<- found
+00:09:51 INFO  - Start search ->By.id: userName
+00:09:51 INFO  - By.id: userName<- found
+00:09:51 INFO  - Start search ->By.id: userName
+00:09:51 INFO  - By.id: userName<- found
+00:09:51 INFO  - Start search ->By.id: password
+00:09:51 INFO  - By.id: password<- found
+00:09:51 INFO  - Start search ->By.id: password
+00:09:51 INFO  - By.id: password<- found
+00:09:51 INFO  - Start search ->By.id: password
+00:09:51 INFO  - By.id: password<- found
+00:09:51 INFO  - Start search ->By.xpath: //*[@id='login']
+00:09:51 INFO  - By.xpath: //*[@id='login']<- found
+00:09:53 INFO  - Start search ->By.id: submit
+00:09:53 INFO  - By.id: submit<- found
+00:09:53 INFO  - End of test -> logintest
+************************************
+00:09:57 INFO  - Start test - >testMultiSelect
+00:09:57 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+00:09:57 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+00:09:57 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+00:09:57 INFO  - By.xpath: //span[.='Select Menu']<- found
+00:09:57 INFO  - Start search ->By.id: cars
+00:09:57 INFO  - By.id: cars<- found
+00:10:02 INFO  - End of test -> testMultiSelect
+************************************
+00:10:05 INFO  - Start test - >studentRegFormTest
+00:10:05 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+00:10:05 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+00:10:05 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+00:10:05 INFO  - By.xpath: //span[.='Practice Form']<- found
+00:10:05 INFO  - Start search ->By.id: firstName
+00:10:06 INFO  - By.id: firstName<- found
+00:10:06 INFO  - Start search ->By.id: firstName
+00:10:06 INFO  - By.id: firstName<- found
+00:10:06 INFO  - Start search ->By.id: firstName
+00:10:06 INFO  - By.id: firstName<- found
+00:10:06 INFO  - Start search ->By.id: lastName
+00:10:06 INFO  - By.id: lastName<- found
+00:10:06 INFO  - Start search ->By.id: lastName
+00:10:06 INFO  - By.id: lastName<- found
+00:10:06 INFO  - Start search ->By.id: lastName
+00:10:06 INFO  - By.id: lastName<- found
+00:10:06 INFO  - Start search ->By.id: userEmail
+00:10:06 INFO  - By.id: userEmail<- found
+00:10:06 INFO  - Start search ->By.id: userEmail
+00:10:06 INFO  - By.id: userEmail<- found
+00:10:06 INFO  - Start search ->By.id: userEmail
+00:10:06 INFO  - By.id: userEmail<- found
+00:10:06 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+00:10:06 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+00:10:07 INFO  - Start search ->By.id: userNumber
+00:10:07 INFO  - By.id: userNumber<- found
+00:10:07 INFO  - Start search ->By.id: userNumber
+00:10:07 INFO  - By.id: userNumber<- found
+00:10:07 INFO  - Start search ->By.id: userNumber
+00:10:07 INFO  - By.id: userNumber<- found
+00:10:07 INFO  - Start search ->By.id: dateOfBirthInput
+00:10:07 INFO  - By.id: dateOfBirthInput<- found
+00:10:07 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+00:10:07 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+00:10:07 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "May"]
+00:10:07 INFO  - By.xpath: .//option[normalize-space(.) = "May"]<- found
+00:10:07 INFO  - Start search ->By.cssSelector: .react-datepicker__year-select
+00:10:07 INFO  - By.cssSelector: .react-datepicker__year-select<- found
+00:10:07 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "1999"]
+00:10:07 INFO  - By.xpath: .//option[normalize-space(.) = "1999"]<- found
+00:10:07 INFO  - Start search ->By.xpath: //div[.='25']
+00:10:07 INFO  - By.xpath: //div[.='25']<- found
+00:10:07 INFO  - Start search ->By.id: currentAddress
+00:10:07 INFO  - By.id: currentAddress<- found
+00:10:08 INFO  - Start search ->By.id: react-select-3-input
+00:10:08 INFO  - By.id: react-select-3-input<- found
+00:10:09 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-3-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (570, 401). Other element would receive the click: <div class=" css-1wa3eu0-placeholder">...</div>
+  (Session info: chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:c74:63a:2563:c314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:60110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35edf709c9316e8d5a26163d293a601c
+00:10:09 ERROR - src/test/screenshots/screen-1612735809256.png
+00:10:09 INFO  - Start search ->By.id: react-select-3-input
+00:10:09 INFO  - By.id: react-select-3-input<- found
+00:10:09 INFO  - Start search ->By.id: react-select-3-input
+00:10:09 INFO  - By.id: react-select-3-input<- found
+00:10:10 INFO  - Start search ->By.id: react-select-3-input
+00:10:10 INFO  - By.id: react-select-3-input<- found
+00:10:10 INFO  - Start search ->By.id: react-select-4-input
+00:10:10 INFO  - By.id: react-select-4-input<- found
+00:10:11 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-4-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (805, 401). Other element would receive the click: <div class=" css-1wa3eu0-placeholder">...</div>
+  (Session info: chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:c74:63a:2563:c314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:60110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35edf709c9316e8d5a26163d293a601c
+00:10:11 ERROR - src/test/screenshots/screen-1612735811316.png
+00:10:11 INFO  - Start search ->By.id: react-select-4-input
+00:10:11 INFO  - By.id: react-select-4-input<- found
+00:10:11 INFO  - Start search ->By.id: react-select-4-input
+00:10:11 INFO  - By.id: react-select-4-input<- found
+00:10:11 INFO  - Start search ->By.id: react-select-4-input
+00:10:11 INFO  - By.id: react-select-4-input<- found
+00:10:12 INFO  - Start search ->By.id: submit
+00:10:12 INFO  - By.id: submit<- found
+00:10:12 INFO  - End of test -> studentRegFormTest
+************************************
+00:10:16 INFO  - Start test - >testForDataProvider
+00:10:16 INFO  - End of test -> testForDataProvider
+************************************
+00:10:16 INFO  - Start test - >testForDataProviderFromFile
+00:10:16 INFO  - End of test -> testForDataProviderFromFile
+************************************
+00:10:16 INFO  - Start test - >testForListener
+00:10:16 INFO  - End of test -> testForListener
+************************************
+00:10:16 INFO  - Start test - >testForLogger
+00:10:16 INFO  - Hello DEMO QA 
+00:10:16 INFO  - End of test -> testForLogger
+************************************
+00:10:16 INFO  - Start test - >testForScreenshots
+00:10:16 INFO  - End of test -> testForScreenshots
+************************************

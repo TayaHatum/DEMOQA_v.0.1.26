@@ -25,6 +25,7 @@ Properties properties;
      HelperAlertWindows alertWindows;
      HelperSelect select;
      HelperJSExecuter js;
+    HelperDropDrag  dropDrag;
     String browser;
 
     public HelperJSExecuter js() {
@@ -75,6 +76,7 @@ Properties properties;
         alertWindows = new HelperAlertWindows(wd);
         select = new HelperSelect(wd);
         js = new HelperJSExecuter(wd);
+        dropDrag=new HelperDropDrag(wd);
 
         //Display logback status!
         // LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
@@ -88,6 +90,10 @@ Properties properties;
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
+    }
+
+    public HelperDropDrag dropDrag() {
+        return dropDrag;
     }
 
     public HelperAlertWindows alertWindows() {
