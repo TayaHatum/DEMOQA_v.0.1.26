@@ -26,6 +26,7 @@ Properties properties;
      HelperSelect select;
      HelperJSExecuter js;
     HelperDropDrag  dropDrag;
+    HelperBrokenLinks brokenLinks;
     String browser;
 
     public HelperJSExecuter js() {
@@ -77,6 +78,7 @@ Properties properties;
         select = new HelperSelect(wd);
         js = new HelperJSExecuter(wd);
         dropDrag=new HelperDropDrag(wd);
+        brokenLinks= new HelperBrokenLinks(wd);
 
         //Display logback status!
         // LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
@@ -94,6 +96,10 @@ Properties properties;
 
     public HelperDropDrag dropDrag() {
         return dropDrag;
+    }
+
+    public HelperBrokenLinks brokenLinks() {
+        return brokenLinks;
     }
 
     public HelperAlertWindows alertWindows() {
